@@ -16,16 +16,18 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         let dec = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
 ┃★╭──────────────
 ┃★│ Owner : *${config.OWNER_NAME}*
-┃★│ Baileys : *⌨︎Multi Device*
-┃★│ Type : *☁︎NodeJs*
-┃★│ Platform : *♲︎Heroku*
+┃★│ Baileys : *Multi Device*
+┃★│ Type : *NodeJs*
+┃★│ Platform : *Heroku*
 ┃★│ Mode : *[${config.MODE}]*
 ┃★│ Prifix : *[${config.PREFIX}]*
-┃★│ Version : *3.0.0 Bᴇᴛᴀ☯︎*
+┃★│ Version : *V.5 Bᴇᴛᴀ*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-╭━━〔 *☟︎𝗠𝗲𝗻𝘂 𝗟𝗶𝘀𝘁☟︎* 〕━━┈⊷
+╭━━〔 *𝗠𝗲𝗻𝘂 𝗟𝗶𝘀𝘁* 〕━━┈⊷
 ┃◈╭─────────────·๏
+┃◈┃• surahmenu
+┃◈┃• prayertime
 ┃◈┃• aimenu
 ┃◈┃• anmiemenu
 ┃◈┃• convertmenu
@@ -54,7 +56,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'https://wa.me/message/L5NHEHHAQUQZF1',
+                        newsletterName: 'MR-SHABAN',
                         serverMessageId: 143
                     }
                 }
