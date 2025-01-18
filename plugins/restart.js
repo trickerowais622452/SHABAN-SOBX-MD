@@ -1,9 +1,9 @@
-const { cmd } = require('../command');
-const { sleep } = require('../lib/functions');
+const { cmd, commands } = require("../command");
+const { sleep } = require("../lib/functions");
 
 cmd({
     pattern: "restart",
-    desc: "Restart the bot SHABAN-SOBX-MD",
+    desc: "Restart the bot ShabanSobxMD",
     category: "owner",
     filename: __filename
 },
