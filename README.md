@@ -77,7 +77,7 @@
  
 <h8>Copy the workflow codes and then frok the repo edit config add
 Work
-[![Work Flow Code WhatsApp Channel](https://img.shields.io/static/v1?label=Work%20Flow%20WhatsApp%20Channel&message=link&color=25D366&style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O) 
+[![Work Flow Code WhatsApp Channel](https://img.shields.io/static/v1?label=Work%20Flow%20Click%20Copy&message=link&color=25D366&style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O/438) 
 
 ***
 
