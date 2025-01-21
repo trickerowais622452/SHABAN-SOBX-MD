@@ -19,7 +19,6 @@
 <p align="center">
   <a href="https://github.com/MRSHABAN40/SHABAN-SOBX-MD"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v5-darkcyan.svg?style=for-the-badge&logo=appveyor" /></a>
  
-[![Contact Me on WhatsApp](https://img.shields.io/static/v1?label=Contact%20Me%20on%20WhatsApp&message=Message&color=25D366&style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923059395959)
 [![Follow My WhatsApp Channel](https://img.shields.io/static/v1?label=Follow%20My%20WhatsApp%20Channel&message=follow&color=25D366&style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O) 
 [![Subscribe to My Channel on YouTube](https://img.shields.io/static/v1?label=Subscribe%20to%20My%20Channel&message=YouTube&color=FF0000&style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@mrshaban282?si=Mmp8uT0UZsRqvKnq)
 [![Follow My GitHub](https://img.shields.io/static/v1?label=Follow%20My%20GitHub&message=GitHub&color=181717&style=for-the-badge&logo=github&logoColor=white)](https://github.com/MRSHABAN40)
@@ -30,12 +29,10 @@
  
 ![license](https://img.shields.io/github/license/MRSHABAN40/SHABAN-SOBX-MD?color=green&label=License&style=plastic)
 
-### 𝗟𝗜𝗖𝗘𝗡𝗦𝗘: [Click here](https://github.com/MRSHABAN40/SHABAN-SOBX-MD/blob/main/LICENSE)
 -------------------------
-
 ***BOT FEATURES 💌***
 
-| Menu ⁠➜ | Bot | Group | Pair | Download | Tools | Ai | Viewonce | Fun | Status Reply | Status Reacts | Convert | Autoreacts |
+| Menu ⁠➜ | Heroku Deploy | Group | Pair | Download | Tools | Ai | Viewonce | Fun | Status Reply | Status Reacts | Convert | Autoreacts |
 |--------|---|-----|------|--------|-----|--|----|---|-----|----|--------|-----|
 | Work ➜ | ✅ | ✅ | ✅ | ✅ | ✅  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
