@@ -12,19 +12,19 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `*Hello there SHABAN-SOBX-MD User! 👋🏻* 
+        let dec = `*Hᴇʟʟᴏ Tʜᴇʀᴇ SʜᴀʙᴀSᴏʙxMᴅ Usᴇʀ! 👋🏻* 
 
-> Simple , Straight Forward But Loaded With Features 🎊, Meet SHABAN-SOBX-MD WhatsApp Bot.
+> Sɪᴍᴘʟᴇ , Sᴛʀᴀɪɢʜᴛ Fᴏʀᴡᴏʀᴅ Bᴜᴛ Lᴏᴀᴅᴇᴀᴅ Wɪᴛʜ Fᴇᴀᴛᴜʀᴇs 🎊, Mᴇᴇᴛ Sʜᴀʙᴀɴ-Sᴏʙx-Mᴅ Wʜᴀᴛsᴀᴘᴘ Bᴏᴛ.
 
-*Thanks for using SHABAN-SOBX-MD 🇵🇰* 
+*TʜᴀɴᴋS FᴏR UsɪɴG Sʜᴀʙᴀɴ-Sᴏʙx-Mᴅ* 
 
-> Don't forget to frok the repo ⤵️
+> Dᴏɴᴛ Fᴏʀɢᴇᴛ Tᴏ Fᴏʀᴋ Tʜᴇ Rᴇᴘᴏ ⤵️
 
 https://github.com/MRSHABAN40/SHABAN-SOBX-MD`;
 
         // Send image with caption
         await conn.sendMessage(from, { 
-            image: { url: `https://i.ibb.co/9N1sJ41/Manul-Ofc-X.jpg` }, 
+            image: { url: `https://i.ibb.co/ccFTMBv/shaban-sobx-md.jpg` }, 
             caption: dec, 
             contextInfo: { 
                 mentionedJid: [m.sender], 
@@ -32,7 +32,7 @@ https://github.com/MRSHABAN40/SHABAN-SOBX-MD`;
                 isForwarded: true, 
                 forwardedNewsletterMessageInfo: { 
                     newsletterJid: '120363358310754973@newsletter', 
-                    newsletterName: 'Mʀ-Sʜᴀʙᴀɴ', 
+                    newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ', 
                     serverMessageId: 143 
                 } 
             } 
@@ -49,7 +49,7 @@ https://github.com/MRSHABAN40/SHABAN-SOBX-MD`;
                 isForwarded: true, 
                 forwardedNewsletterMessageInfo: { 
                     newsletterJid: '120363358310754973@newsletter', 
-                    newsletterName: 'Mʀ-Sʜᴀʙᴀɴ', 
+                    newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ', 
                     serverMessageId: 143 
                 } 
             }

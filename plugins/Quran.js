@@ -67,7 +67,7 @@ ${translatedTafsirEnglish.text}`;
           isForwarded: true,   
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363358310754973@newsletter', 
-            newsletterName: 'SHABAN-MD', 
+            newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ', 
             serverMessageId: 143
           }
         }
@@ -457,7 +457,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'SHABAN-MD',
+                        newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ',
                         serverMessageId: 143
                     }
                 }

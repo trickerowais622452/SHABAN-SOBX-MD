@@ -22,9 +22,9 @@ async (conn, mek, m, { from, prefix, quoted, q, reply, waitForReply }) => {
 
         let yts = yt.results[0];
 
-        let ytmsg = `╭━━━〔 *SHABAN-SOBX-MD* 〕━━━┈⊷
+        let ytmsg = `╭━━━〔 *𝕊ℍ𝔸𝔹𝔸ℕ-𝕊𝕆𝔹𝕏-𝕄𝔻* 〕━━━┈⊷
 ┃▸╭───────────
-┃▸┃๏ *VIDEO DOWNLOADER*
+┃▸┃๏ *𝕍𝕀𝔻𝔼𝕆 𝔻𝕆𝕎ℕ𝕃𝕆𝔸𝔻𝔼ℝ*
 ┃▸└───────────···๏
 ╰────────────────┈⊷
 ╭━━❐━⪼
@@ -76,9 +76,9 @@ if(yt.results.length < 1) return reply("Results is not found !")
 let yts = yt.results[0]  
 const ytdl = await ytmp3(yts.url)
 		
-let ytmsg = `╭━━━〔 *SHABAN-SOBX-MD* 〕━━━┈⊷
+let ytmsg = `╭━━━〔 *𝕊ℍ𝔸𝔹𝔸ℕ-𝕊𝕆𝔹𝕏-𝕄𝔻* 〕━━━┈⊷
 ┃▸╭───────────
-┃▸┃๏ *MUSIC DOWNLOADER*
+┃▸┃๏ *𝕄𝕌𝕊𝕀ℂ 𝔻𝕆𝕎ℕ𝕃𝕆𝔸𝔻𝔼ℝ*
 ┃▸└───────────···๏
 ╰────────────────┈⊷
 ╭━━❐━⪼

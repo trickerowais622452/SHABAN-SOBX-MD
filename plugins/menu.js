@@ -24,7 +24,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃★│ Version : *V.5 Bᴇᴛᴀ*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-╭━━〔 *𝗠𝗲𝗻𝘂 𝗟𝗶𝘀𝘁* 〕━━┈⊷
+╭━━〔 *𝐌𝐄𝐍𝐔 𝐋𝐈𝐒𝐓* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• surahmenu
 ┃◈┃• prayertime
@@ -48,7 +48,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/9N1sJ41/Manul-Ofc-X.jpg` },
+                image: { url: `https://i.ibb.co/99MJmJN/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -56,7 +56,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'MR-SHABAN',
+                        newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ',
                         serverMessageId: 143
                     }
                 }
@@ -89,7 +89,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━〔 *𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗲𝗻𝘂* 〕━━┈⊷
+        let dec = `╭━━〔 *𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• facebook
 ┃◈┃• mediafire
@@ -122,7 +122,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/GF8Xq2z/mrfrankofc.jpg` },
+                image: { url: `https://i.ibb.co/gDMqCX7/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -130,7 +130,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'Mʀ-Sʜᴀʙᴀɴ',
+                        newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ',
                         serverMessageId: 143
                     }
                 }
@@ -156,7 +156,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try
        {
-        let dec = `╭━━〔 *𝗚𝗿𝗼𝘂𝗽 𝗠𝗲𝗻𝘂* 〕━━┈⊷
+        let dec = `╭━━〔 *𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• grouplink
 ┃◈┃• kickall
@@ -200,7 +200,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/x1S7rd3/mrfrankofc.jpg` },
+                image: { url: `https://i.ibb.co/qkwv5wY/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -208,7 +208,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'Mʀ-Sʜᴀʙᴀɴ',
+                        newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ',
                         serverMessageId: 143
                     }
                 }
@@ -234,7 +234,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
 
-        let dec = `╭━━〔 *𝗙𝘂𝗻 𝗠𝗲𝗻𝘂* 〕━━┈⊷
+        let dec = `╭━━〔 *𝐅𝐔𝐍 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• insult
 ┃◈┃• pickup
@@ -265,7 +265,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/vXFD2sM/mrfrankofc.jpg` },
+                image: { url: `https://i.ibb.co/ScymLHB/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -273,7 +273,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'Mʀ-Sʜᴀʙᴀɴ',
+                        newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ',
                         serverMessageId: 143
                     }
                 }
@@ -298,7 +298,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━〔 *𝗢𝘁𝗵𝗲𝗿 𝗠𝗲𝗻𝘂* 〕━━┈⊷
+        let dec = `╭━━〔 *𝐎𝐓𝐇𝐄𝐑 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• vv
 ┃◈┃• pair
@@ -324,7 +324,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/dLPXWHS/mrfrankofc.jpg` },
+                image: { url: `https://i.ibb.co/YkmXLfx/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -332,7 +332,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'Mʀ-Sʜᴀʙᴀɴ',
+                        newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ',
                         serverMessageId: 143
                     }
                 }
@@ -357,7 +357,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━〔 *𝗠𝗮𝗶𝗻 𝗠𝗲𝗻𝘂* 〕━━┈⊷
+        let dec = `╭━━〔 *𝐌𝐀𝐈𝐍 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• ping
 ┃◈┃• live 
@@ -376,7 +376,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/Vx0D4gz/mrfrankofc.jpg` },
+                image: { url: `https://i.ibb.co/wcgKqpW/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -384,7 +384,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'Mʀ-Sʜᴀʙᴀɴ',
+                        newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ',
                         serverMessageId: 143
                     }
                 }
@@ -409,7 +409,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━〔 *𝗢𝘄𝗻𝗲𝗿 𝗠𝗲𝗻𝘂* 〕━━┈⊷
+        let dec = `╭━━〔 *𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• owner
 ┃◈┃• menu
@@ -435,7 +435,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/yQqzFV0/mrfrankofc.jpg` },
+                image: { url: `https://i.ibb.co/Q61H4NH/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -443,7 +443,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'Mʀ-Sʜᴀʙᴀɴ',
+                        newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ',
                         serverMessageId: 143
                     }
                 }
@@ -468,7 +468,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━〔 *𝗖𝗼𝗻𝘃𝗲𝗿𝘁 𝗠𝗲𝗻𝘂* 〕━━┈⊷
+        let dec = `╭━━〔 *𝐂𝐎𝐍𝐕𝐄𝐑𝐓 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• sticker
 ┃◈┃• sticker2
@@ -484,7 +484,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/x8XFY47/mrfrankofc.jpg` },
+                image: { url: `https://i.ibb.co/SNYJcnB/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -492,7 +492,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'Mʀ-Sʜᴀʙᴀɴ',
+                        newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ',
                         serverMessageId: 143
                     }
                 }
@@ -518,7 +518,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-          let dec = `╭━━〔 *𝗔𝗻𝗶𝗺𝗲 𝗠𝗲𝗻𝘂* 〕━━┈⊷
+          let dec = `╭━━〔 *𝐀𝐍𝐈𝐌𝐄 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• fack
 ┃◈┃• dog
@@ -553,7 +553,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/LCx1gqK/mrfrankofc.jpg` },
+                image: { url: `https://i.ibb.co/vVxgbKK/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -561,7 +561,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'Mʀ-Sʜᴀʙᴀɴ',
+                        newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ',
                         serverMessageId: 143
                     }
                 }
@@ -587,7 +587,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━〔 *𝗔𝗶 𝗠𝗲𝗻𝘂* 〕━━┈⊷
+        let dec = `╭━━〔 *𝐀𝐈 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• ai
 ┃◈┃• gpt
@@ -603,7 +603,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/JHRdyS5/mrfrankofc.jpg` },
+                image: { url: `https://i.ibb.co/JB1m9dH/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -611,7 +611,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'Mʀ-Sʜᴀʙᴀɴ',
+                        newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ',
                         serverMessageId: 143
                     }
                 }

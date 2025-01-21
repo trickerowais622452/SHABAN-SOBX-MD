@@ -11,7 +11,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━❮ *DOWNLOAD CMD* ❯━┈⊷
+        let dec = `╭━❮ *𝔻𝕆𝕎ℕ𝕃𝕆𝔸𝔻 ℂ𝕄𝔻* ❯━┈⊷
 ┃▸
 ┃▸📄 COMMAND: .play
 ┃▸❕ Download Audio from yt
@@ -297,7 +297,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/9N1sJ41/Manul-Ofc-X.jpg` },
+                image: { url: `https://i.ibb.co/t83n5t2/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -305,7 +305,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'Mʀ-Sʜᴀʙᴀɴ',
+                        newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ',
                         serverMessageId: 143
                     }
                 }

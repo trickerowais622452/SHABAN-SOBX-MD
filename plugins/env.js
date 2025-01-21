@@ -19,9 +19,9 @@ cmd({
 async (conn, mek, m, { from, quoted, reply }) => {
     try {
         // Define the settings message with the correct boolean checks
-        let envSettings = `╭━━━〔 *SHABAN-SOB-MD* 〕━━━┈⊷
+        let envSettings = `╭━━━〔 *𝕊ℍ𝔸𝔹𝔸ℕ-𝕊𝕆𝔹𝕏-𝕄𝔻* 〕━━━┈⊷
 ┃▸╭───────────
-┃▸┃๏ *ENV SETTINGS 🗿*
+┃▸┃๏ *𝔼ℕ𝕍 𝕊𝔼𝕋𝕋𝕀ℕ𝔾𝕊 📡*
 ┃▸└───────────···๏
 ╰────────────────┈⊷
 ╭━━〔 *Enabled Disabled* 〕━━┈⊷
@@ -47,7 +47,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: 'https://i.ibb.co/yQqzFV0/mrfrankofc.jpg' }, // Image URL
+                image: { url: 'https://i.ibb.co/r5vyz4T/shaban-sobx-md.jpg' }, // Image URL
                 caption: envSettings,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -55,7 +55,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: "MrShaban",
+                        newsletterName: "SʜᴀʙᴀɴSᴏʙxMD",
                         serverMessageId: 143
                     }
                 }

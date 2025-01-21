@@ -29,13 +29,13 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://i.ibb.co/9N1sJ41/Manul-Ofc-X.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *SHABAN-SOBX-MD* 〕━━┈⊷
+            image: { url: 'https://i.ibb.co/Q61H4NH/shaban-sobx-md.jpg' }, // Image URL from your request
+            caption: `╭━━〔 *𝐒𝐇𝐀𝐁𝐀𝐍-𝐒𝐎𝐁𝐗-𝐌𝐃* 〕━━┈⊷
 ┃◈╭─────────────·๏
-┃◈┃• *Here is the owner details*
-┃◈┃• *Name* - ${ownerName}
-┃◈┃• *Number* ${ownerNumber}
-┃◈┃• *Version*: 3.0.0 Beta
+┃◈┃• *𝐇𝐞𝐫 𝐈𝐬 𝐓𝐡𝐞 𝐎𝐰𝐧𝐞𝐫 𝐃𝐞𝐭𝐚𝐢𝐥𝐬*
+┃◈┃• *𝐍𝐚𝐦𝐞* - ${ownerName}
+┃◈┃• *𝐍𝐮𝐦𝐛𝐞𝐫* ${ownerNumber}
+┃◈┃• *𝐕𝐞𝐫𝐬𝐢𝐨𝐧*: 𝐕.5 Beta
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ Mʀ Sʜᴀʙᴀɴ`, // Display the owner's details
@@ -45,7 +45,7 @@ async (conn, mek, m, { from }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363358310754973@newsletter',
-                    newsletterName: 'Mʀ-Sʜᴀʙᴀɴ',
+                    newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ',
                     serverMessageId: 143
                 }            
             }
