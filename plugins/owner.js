@@ -29,7 +29,7 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://i.ibb.co/Q61H4NH/shaban-sobx-md.jpg' }, // Image URL from your request
+            image: { url: 'https://i.ibb.co/zGXCBcM/shaban-sobx-md.jpg' }, // Image URL from your request
             caption: `╭━━〔 *𝐒𝐇𝐀𝐁𝐀𝐍-𝐒𝐎𝐁𝐗-𝐌𝐃* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *𝐇𝐞𝐫 𝐈𝐬 𝐓𝐡𝐞 𝐎𝐰𝐧𝐞𝐫 𝐃𝐞𝐭𝐚𝐢𝐥𝐬*

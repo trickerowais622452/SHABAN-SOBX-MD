@@ -24,7 +24,7 @@ https://github.com/MRSHABAN40/SHABAN-SOBX-MD`;
 
         // Send image with caption
         await conn.sendMessage(from, { 
-            image: { url: `https://i.ibb.co/ccFTMBv/shaban-sobx-md.jpg` }, 
+            image: { url: `https://i.ibb.co/0D673y0/shaban-sobx-md.jpg` }, 
             caption: dec, 
             contextInfo: { 
                 mentionedJid: [m.sender], 

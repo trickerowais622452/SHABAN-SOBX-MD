@@ -48,7 +48,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/99MJmJN/shaban-sobx-md.jpg` },
+                image: { url: `https://i.ibb.co/99PPwKH/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -102,6 +102,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• play
 ┃◈┃• play2
 ┃◈┃• play3
+┃◈┃• play5
 ┃◈┃• tt2
 ┃◈┃• audio
 ┃◈┃• video
@@ -122,7 +123,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/gDMqCX7/shaban-sobx-md.jpg` },
+                image: { url: `https://i.ibb.co/c336s72/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -200,7 +201,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/qkwv5wY/shaban-sobx-md.jpg` },
+                image: { url: `https://i.ibb.co/yqBjsqJ/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -265,7 +266,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/ScymLHB/shaban-sobx-md.jpg` },
+                image: { url: `https://i.ibb.co/V91xNqD/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -315,8 +316,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• wikipedia
 ┃◈┃• gpass
 ┃◈┃• githubstalk
-┃◈┃• yts
-┃◈┃• ytv
+┃◈┃• yts link
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
@@ -324,7 +324,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/YkmXLfx/shaban-sobx-md.jpg` },
+                image: { url: `https://i.ibb.co/5cxQBQG/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -360,14 +360,13 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         let dec = `╭━━〔 *𝐌𝐀𝐈𝐍 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• ping
+┃◈┃• ping2
 ┃◈┃• live 
 ┃◈┃• alive
-┃◈┃• runtime
-┃◈┃• uptime 
+┃◈┃• sc 
 ┃◈┃• repo
 ┃◈┃• owner
 ┃◈┃• menu
-┃◈┃• menu2
 ┃◈┃• restart
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
@@ -376,7 +375,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/wcgKqpW/shaban-sobx-md.jpg` },
+                image: { url: `https://i.ibb.co/44MJgVS/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -412,20 +411,13 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         let dec = `╭━━〔 *𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• owner
-┃◈┃• menu
-┃◈┃• menu2
-┃◈┃• listcmd
-┃◈┃• allmenu
-┃◈┃• repo
 ┃◈┃• block
 ┃◈┃• unblock
 ┃◈┃• fullpp
 ┃◈┃• setpp
 ┃◈┃• restart
 ┃◈┃• shutdown
-┃◈┃• updatecmd
-┃◈┃• alive
-┃◈┃• ping 
+┃◈┃• updatecmd 
 ┃◈┃• gjid
 ┃◈┃• jid
 ┃◈└───────────┈⊷
@@ -435,7 +427,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/Q61H4NH/shaban-sobx-md.jpg` },
+                image: { url: `https://i.ibb.co/zGXCBcM/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -470,12 +462,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         let dec = `╭━━〔 *𝐂𝐎𝐍𝐕𝐄𝐑𝐓 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
-┃◈┃• sticker
-┃◈┃• sticker2
-┃◈┃• fancy
-┃◈┃• take
-┃◈┃• tomp3
-┃◈┃• tts
+┃◈┃• sticker 
+┃◈┃• fancy 
+┃◈┃• take 
+┃◈┃• tomp3 
+┃◈┃• tts 
 ┃◈┃• trt
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
@@ -484,7 +475,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/SNYJcnB/shaban-sobx-md.jpg` },
+                image: { url: `https://i.ibb.co/DwrH4Lv/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -520,17 +511,13 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
           let dec = `╭━━〔 *𝐀𝐍𝐈𝐌𝐄 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
-┃◈┃• fack
 ┃◈┃• dog
 ┃◈┃• awoo
 ┃◈┃• garl
 ┃◈┃• waifu
 ┃◈┃• neko
-┃◈┃• megnumin
 ┃◈┃• neko
 ┃◈┃• maid
-┃◈┃• loli
-┃◈┃• animegirl
 ┃◈┃• animegirl
 ┃◈┃• animegirl1
 ┃◈┃• animegirl2
@@ -543,9 +530,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• anime3
 ┃◈┃• anime4
 ┃◈┃• anime5
-┃◈┃• animenews
-┃◈┃• foxgirl
-┃◈┃• naruto
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
@@ -553,7 +537,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/vVxgbKK/shaban-sobx-md.jpg` },
+                image: { url: `https://i.ibb.co/yk9fmd0/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -590,9 +574,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         let dec = `╭━━〔 *𝐀𝐈 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• ai
-┃◈┃• gpt
 ┃◈┃• meta
-┃◈┃• blackbox
 ┃◈┃• gpt4
 ┃◈┃• bing
 ┃◈┃• copilot
@@ -603,7 +585,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/JB1m9dH/shaban-sobx-md.jpg` },
+                image: { url: `https://i.ibb.co/vv9HfkB/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],

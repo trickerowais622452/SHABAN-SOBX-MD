@@ -162,7 +162,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ╭━━〔 *Convert Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• sticker
-┃◈┃• sticker2
 ┃◈┃• emojimix
 ┃◈┃• fancy
 ┃◈┃• take
@@ -193,12 +192,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• blackbox
 ┃◈┃• luma
 ┃◈┃• dj 
-┃◈┃• khan
-┃◈┃• jawad
 ┃◈┃• gpt4
 ┃◈┃• bing
-┃◈┃• imagine 
-┃◈┃• imagine2
+┃◈┃• imag
 ┃◈┃• copilot
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
@@ -252,30 +248,21 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ╰──────────────┈⊷
 ╭━━〔 *Other Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
-┃◈┃• timenow
-┃◈┃• date
-┃◈┃• count
-┃◈┃• calculate
-┃◈┃• countx
-┃◈┃• flip
-┃◈┃• coinflip
-┃◈┃• rcolor
-┃◈┃• roll
 ┃◈┃• fact
 ┃◈┃• cpp
 ┃◈┃• rw
 ┃◈┃• pair
 ┃◈┃• pair2
-┃◈┃• pair3
 ┃◈┃• fancy
 ┃◈┃• logo <text>
 ┃◈┃• define
 ┃◈┃• news
 ┃◈┃• movie
 ┃◈┃• weather
-┃◈┃• srepo
 ┃◈┃• insult
 ┃◈┃• save
+┃◈┃• send
+┃◈┃• send me
 ┃◈┃• wikipedia
 ┃◈┃• gpass
 ┃◈┃• githubstalk
@@ -288,7 +275,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/MDPGw0G/shaban-sobx-md.jpg` },
+                image: { url: `https://i.ibb.co/nbr8SCs/shaban-sobx-md.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
