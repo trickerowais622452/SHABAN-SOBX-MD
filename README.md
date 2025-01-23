@@ -85,7 +85,7 @@ Work
 </p>
 
 <br>
-<img alt="Coder GIF" height=250 width=350 src="https://i.gifer.com/GYny.gif" />
+<img alt="Coder GIF" height=250 width=350 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbjGcAL0l_DqfHSB912Au-hzylVbPyZ_1Tbw&s.gif" />
 <br>
 
 <details>
