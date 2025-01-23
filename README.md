@@ -1,3 +1,6 @@
+<img alt="Coder GIF" height=45 width=300 src="https://64.media.tumblr.com/90e31332d6ec20e6ac7bca8bc3869931/59f4fa39824ee661-8a/s500x750/da3086bfaac8fdac32f2453d60d002b2c6dcf1be.gif" />
+
+
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THANKS FOR YOUR +SUPPORT-DONT; FORGET+SATAR+FORK+MYREPO;CREATED+BY+MR SHABAN;RELEASED+24-12-2024" alt="Typing SVG" /></a>
 <a><img src='https://i.ibb.co/9N1sJ41/Manul-Ofc-X.gif'/></a>
 
