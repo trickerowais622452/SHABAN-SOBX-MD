@@ -99,17 +99,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• apk
 ┃◈┃• img
 ┃◈┃• spotify
-┃◈┃• play
 ┃◈┃• play2
-┃◈┃• play3
-┃◈┃• play5
 ┃◈┃• tt2
 ┃◈┃• audio
-┃◈┃• video
 ┃◈┃• video2
 ┃◈┃• ytmp3
 ┃◈┃• ytmp4
-┃◈┃• song
 ┃◈┃• darama
 ┃◈┃• git
 ┃◈┃• gdrive
