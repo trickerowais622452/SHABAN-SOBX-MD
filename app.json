@@ -1,8 +1,8 @@
 {
   "name": "SHABAN-SOBX-MD",
-  "description": "Jᴀᴠᴀsᴄʀɪᴘᴛ Wʜᴀᴛsᴀᴘᴘ Bᴏᴛ Mᴀᴅᴇ Bʏ Mʀ Sʜᴀʙᴀɴ",
+  "description": "Javascript WhatsApp bot made by Mʀ Sʜᴀʙᴀɴ",
   "logo": "https://i.ibb.co/9N1sJ41/Manul-Ofc-X.jpg",
-  "keywords": ["sʜᴀʙᴀɴ-sᴏʙx-ᴍᴅ"],
+  "keywords": ["SHABAN-SOBX-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -42,7 +42,7 @@
     "AUTO_VOICE": {
       "description": "Make it true if want automatic voice reply .",
       "required": false,
-      "value": "true"
+      "value": "false"
     }, 
 
     "AUTO_REPLY": {
@@ -66,14 +66,14 @@
 
     "AUTO_STATUS_REPLY": {
       "description": "Make it true for auto reply msg on status seen.",
-      "required": false,
+      "required": true,
       "value": "false"
     }, 
 
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
-      "required": false,
-      "value": "*Jᴜsᴛ Nᴏᴡ Sᴛᴀᴛᴜs Sᴇᴇɴ Bʏ ᯽Sʜᴀʙᴀɴ-Sᴏʙx-Mᴅ᯽*"
+      "required": true,
+      "value": "*SEEN YOUR STATUS BY SHABAN-SOBX-MD*"
    
      }, 
     
@@ -86,7 +86,7 @@
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "923059395959"
+      "value": "92310344XXXX"
 
     }, 
 
@@ -107,7 +107,7 @@
     "ANTI_BAD": {
       "description": "Make it true if you want bot auto delete bad words.",
       "required": false,
-      "value": "false"
+      "value": "true"
     }, 
 
      "DESCRIPTION": {
@@ -150,13 +150,13 @@
     "CUSTOM_REACT_EMOJIS": {
       "description": "put here custom react react emojis.",
       "required": false,
-      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍,💘,💞,💕,❣️,💔,❤️‍🔥"
+      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
     }, 
     
-    "READ_CMD": {
-      "description": "make it true if want mark commands as read.",
+    "ANTI_DEL_PATH": {
+      "description": "change it to -same- if you want to resend deleted message in same chat",
       "required": false,
-      "value": "false"
+      "value": "log"
     }, 
 
     "READ_MESSAGE": {
