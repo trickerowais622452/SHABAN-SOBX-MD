@@ -101,6 +101,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• apk
 ┃◈┃• img
 ┃◈┃• spotify
+┃◈┃• play
 ┃◈┃• play2
 ┃◈┃• play5
 ┃◈┃• video2
