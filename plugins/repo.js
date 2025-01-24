@@ -1,62 +1,69 @@
-const { cmd, commands } = require('../command');
-const config = require('../config');
+const fetch = require('node-fetch');
+const config = require('../config');    
+const { cmd } = require('../command');
 
-// repo info
 cmd({
     pattern: "repo",
     alias: ["sc", "script", "info"],
-    desc: "Info about the bot repository",
-    category: "main",
-    react: "👨‍💻",
-    filename: __filename
-}, 
-async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    desc: "Fetch information about a GitHub repository.",
+    react: "📂",
+    category: "info",
+    filename: __filename,
+},
+async (conn, mek, m, { from, reply }) => {
+    const githubRepoURL = 'https://github.com/MRSHABAN40/SHABAN-SOBX-MD';
+
     try {
-        let dec = `*Hᴇʟʟᴏ Tʜᴇʀᴇ SʜᴀʙᴀSᴏʙxMᴅ Usᴇʀ! 👋🏻* 
+        // Extract username and repo name from the URL
+        const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
 
-> Sɪᴍᴘʟᴇ , Sᴛʀᴀɪɢʜᴛ Fᴏʀᴡᴏʀᴅ Bᴜᴛ Lᴏᴀᴅᴇᴀᴅ Wɪᴛʜ Fᴇᴀᴛᴜʀᴇs 🎊, Mᴇᴇᴛ Sʜᴀʙᴀɴ-Sᴏʙx-Mᴅ Wʜᴀᴛsᴀᴘᴘ Bᴏᴛ.
+        // Fetch repository details using GitHub API
+        const response = await fetch(`https://api.github.com/repos/${username}/${repoName}`);
+        
+        if (!response.ok) {
+            throw new Error(`GitHub API request failed with status ${response.status}`);
+        }
 
-*TʜᴀɴᴋS FᴏR UsɪɴG Sʜᴀʙᴀɴ-Sᴏʙx-Mᴅ* 
+        const repoData = await response.json();
 
-> Dᴏɴᴛ Fᴏʀɢᴇᴛ Tᴏ Fᴏʀᴋ Tʜᴇ Rᴇᴘᴏ ⤵️
+        // Format the repository information
+        const formattedInfo = `*BOT NAME:*\n> ${repoData.name}\n\n*OWNER NAME:*\n> ${repoData.owner.login}\n\n*STARS:*\n> ${repoData.stargazers_count}\n\n*FORKS:*\n> ${repoData.forks_count}\n\n*GITHUB LINK:*\n> ${repoData.html_url}\n\n*DESCRIPTION:*\n> ${repoData.description || 'No description'}\n\n*Don't Forget To Star and Fork Repository*\n\n> *© Pᴏᴡᴇᴛᴇᴅ Bʏ Mʀ Sʜᴀʙᴀɴ*`;
 
-https://github.com/MRSHABAN40/SHABAN-SOBX-MD`;
-
-        // Send image with caption
-        await conn.sendMessage(from, { 
-            image: { url: `https://i.ibb.co/0D673y0/shaban-sobx-md.jpg` }, 
-            caption: dec, 
+        // Send an image with the formatted info as a caption and context info
+        await conn.sendMessage(from, {
+            image: { url: `https://i.ibb.co/SBgJLJG/shaban-sobx-md.jpg` },
+            caption: formattedInfo,
             contextInfo: { 
-                mentionedJid: [m.sender], 
-                forwardingScore: 999, 
-                isForwarded: true, 
-                forwardedNewsletterMessageInfo: { 
-                    newsletterJid: '120363358310754973@newsletter', 
-                    newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ', 
-                    serverMessageId: 143 
-                } 
-            } 
+                mentionedJid: [m.sender],
+                forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363358310754973@newsletter',
+                    newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ',
+                    serverMessageId: 143
+                }
+            }
         }, { quoted: mek });
 
-        // Send audio with contextInfo
+        // Send the audio file with context info
         await conn.sendMessage(from, {
             audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/repo.m4a' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
-                mentionedJid: [m.sender], 
-                forwardingScore: 999, 
-                isForwarded: true, 
-                forwardedNewsletterMessageInfo: { 
-                    newsletterJid: '120363358310754973@newsletter', 
-                    newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ', 
-                    serverMessageId: 143 
-                } 
+                mentionedJid: [m.sender],
+                forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363358310754973@newsletter',
+                    newsletterName: 'SʜᴀʙᴀɴSᴏʙxMᴅ',
+                    serverMessageId: 143
+                }
             }
         }, { quoted: mek });
-        
-    } catch (e) {
-        console.log(e);
-        reply(`${e}`);
+
+    } catch (error) {
+        console.error("Error in repo command:", error);
+        reply("Sorry, something went wrong while fetching the repository information. Please try again later.");
     }
 });
