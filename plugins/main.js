@@ -37,6 +37,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• apk
 ┃◈┃• img
 ┃◈┃• spotify
+┃◈┃• play
 ┃◈┃• play2
 ┃◈┃• play5
 ┃◈┃• video2
@@ -92,6 +93,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• menu
 ┃◈┃• menu2
 ┃◈┃• vv
+┃◈┃• antidelete set dm/gc/all
 ┃◈┃• listcmd
 ┃◈┃• allmenu
 ┃◈┃• repo
@@ -131,14 +133,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• nikal
 ┃◈┃• hold
 ┃◈┃• hug
-┃◈┃• nikal
-┃◈┃• hifi
-┃◈┃• poke
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 ╭━━〔 *Convert Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
-┃◈┃• sticker
+┃◈┃• sticker |ᴘɪᴄ ᴛᴏ sᴛɪᴄᴋᴇʀ|
+┃◈┃• gs video to gif
 ┃◈┃• emojimix
 ┃◈┃• fancy
 ┃◈┃• take
