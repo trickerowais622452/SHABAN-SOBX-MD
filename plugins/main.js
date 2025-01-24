@@ -39,7 +39,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• pinterest 
 ┃◈┃• spotify
 ┃◈┃• play2
-┃◈┃• audio
+┃◈┃• play5
 ┃◈┃• video2
 ┃◈┃• ytmp3
 ┃◈┃• ytmp4
