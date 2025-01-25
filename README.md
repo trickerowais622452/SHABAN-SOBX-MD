@@ -33,7 +33,7 @@
 
 ***BOT FEATURE ⬇️***
 
-| Menu ⁠➜ | Status Save Sender | Group | Pair | Download | Tools | Ai | Viewonce | Fun | Status Reply | Status Reacts | Convert | Autoreacts |
+| Menu ⁠➜ | Status Save Sender | Group | Pair | Download | Antidelete | Ai | Viewonce | Fun | Status Reply | Status Reacts | Convert | Autoreacts |
 |--------|---|-----|------|--------|-----|--|----|---|-----|----|--------|-----|
 | Work ➜ | ✅ | ✅ | ✅ | ✅ | ✅  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
