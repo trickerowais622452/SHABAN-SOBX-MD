@@ -178,7 +178,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ╭━━〔 *Main Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• ping
-┃◈┃• ping2
 ┃◈┃• speed
 ┃◈┃• live 
 ┃◈┃• alive
@@ -193,7 +192,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ╰──────────────┈⊷
 ╭━━〔 *Anime Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
-┃◈┃• fack
 ┃◈┃• truth
 ┃◈┃• dare
 ┃◈┃• dog
@@ -201,11 +199,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• garl
 ┃◈┃• waifu
 ┃◈┃• neko
-┃◈┃• megnumin
-┃◈┃• neko
 ┃◈┃• maid
-┃◈┃• loli
-┃◈┃• animegirl
 ┃◈┃• animegirl
 ┃◈┃• animegirl1
 ┃◈┃• animegirl2
@@ -218,9 +212,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• anime3
 ┃◈┃• anime4
 ┃◈┃• anime5
-┃◈┃• animenews
-┃◈┃• foxgirl
-┃◈┃• naruto
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 ╭━━〔 *Other Menu* 〕━━┈⊷
